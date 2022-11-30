@@ -29,8 +29,12 @@ public class Main {
                          break;
                     case "Carreno":
                          Carreno();
+                         break;
                     case "Gogel":
                          gogel();
+                         break;
+                    case "Bander":
+                         bander();
                          break;
                     default:
                          bueller();
