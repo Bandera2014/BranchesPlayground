@@ -4,17 +4,23 @@ public class Main {
      public static void main(String[] args) throws InterruptedException  {
           Scanner in = new Scanner(System.in);
           while(true){
-               System.out.println("Role Call, when you hear your name, say hear");
+               System.out.println("\n\n\n\n\n\nRole Call, when you hear your name, say hear");
                System.out.println("Gogel\nHorstman\nBrant\nCarreno\nKoehler\nGrisham\nLenahan\nBatts\nJuarez-Fernandez\nScheller");
-               String response = in.nextLine();
+               String response = in.next();
+               System.out.println(response);
                switch(response){
-                    case("Gogel"):
+                    case "Bander":
+                         bander();
                          break;
                     default:
                          bueller();
-                         break;
+                         
                }
           }
+     }
+
+     private static void bander(){
+          System.out.println("Hello There");
      }
 
      // Gogel
@@ -29,7 +35,7 @@ public class Main {
      // Scheller
 
      private static void bueller() throws InterruptedException {
-          for(int i=0;i<3;i++){
+          for(int i=0;i<1;i++){
                System.out.print("Bueller");
                delayDots(3);
           }
