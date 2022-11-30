@@ -9,8 +9,8 @@ public class Main {
                String response = in.next();
                System.out.println(response);
                switch(response){
-                    case "Bander":
-                         bander();
+                    case "Grisham":
+                         Grisham();
                          break;
                     case "Juarez":
                          Juarez();
@@ -112,5 +112,17 @@ public class Main {
         }
         System.out.println();
     }
+
+     // Grisham
+     private static void Grisham() {
+          for (int i = 0; i < 99999; i++) {
+               System.out.println(i+1);
+          }
+          for (int i = 0; i < 100; i++) {
+               System.out.println();
+          }
+          System.out.println("Hello, I am Rece.");
+     }
+
 
 }
