@@ -25,14 +25,13 @@ public class Main {
           System.out.println("Hello There");
      }
 
+     // Gogel
      private static void gogel() {
           for (int i = 0; i < 99999; i++) {
                System.out.println(i+1);
           }
           System.out.println("Hello");
      }
-
-     // Gogel
      // Horstman
      // Brant
      // Carreno
