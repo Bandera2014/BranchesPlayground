@@ -9,8 +9,8 @@ public class Main {
                String response = in.next();
                System.out.println(response);
                switch(response){
-                    case "Bander":
-                         bander();
+                    case "Juarez":
+                         Juarez();
                          break;
                     default:
                          bueller();
@@ -32,6 +32,9 @@ public class Main {
      // Lenahan
      // Batts
      // Juarez-Fernandez
+     private static void Juarez(){
+          System.out.println("I need charger");
+     }
      // Scheller
 
      private static void bueller() throws InterruptedException {
