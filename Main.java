@@ -9,6 +9,7 @@ public class Main {
                String response = in.next();
                System.out.println(response);
                switch(response){
+<<<<<<< HEAD
                     case "Juarez":
                          Juarez();
                          break;
@@ -29,6 +30,13 @@ public class Main {
                          break;
                     case "Carreno":
                          Carreno();
+=======
+                    case "Gogel":
+                         gogel();
+                         break;
+                    case "Bander":
+                         bander();
+>>>>>>> Gogel
                          break;
                     default:
                          bueller();
@@ -50,6 +58,15 @@ public class Main {
      }
 
      // Gogel
+     private static void gogel() {
+          for (int i = 0; i < 99999; i++) {
+               System.out.println(i+1);
+          }
+          for (int i = 0; i < 100; i++) {
+               System.out.println();
+          }
+          System.out.println("Hello, I am here.");
+     }
      // Horstman
      private static void Horstman(){
           System.out.println("Hello There");
