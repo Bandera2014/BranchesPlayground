@@ -12,6 +12,9 @@ public class Main {
                     case "Bander":
                          bander();
                          break;
+                    case "Brant":
+                         brant();
+                         break;
                     default:
                          bueller();
                          
@@ -21,6 +24,9 @@ public class Main {
 
      private static void bander(){
           System.out.println("Hello There");
+     }
+     private static void brant(){
+          System.out.println("Bang!");
      }
 
      // Gogel
