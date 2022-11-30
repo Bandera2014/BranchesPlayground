@@ -28,7 +28,7 @@ public class Main {
 
      private static void batts(){
           for(int i=0;i>=0;i++){
-               System.out.println("Bander is sus");
+               System.out.println("Bander is sus imposter");
           }
      }
 
