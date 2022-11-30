@@ -14,6 +14,7 @@ public class Main {
                          break;
                     case "Scheller":
                          scheller();
+                         break;
                     case "Horstman":
                          Horstman();
                          break;
