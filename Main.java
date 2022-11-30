@@ -9,6 +9,9 @@ public class Main {
                String response = in.next();
                System.out.println(response);
                switch(response){
+                    case "Bander":
+                         bander();
+                         break;
                     case "Juarez":
                          Juarez();
                          break;
