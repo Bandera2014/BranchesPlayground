@@ -9,8 +9,17 @@ public class Main {
                String response = in.next();
                System.out.println(response);
                switch(response){
-                    case "Bander":
-                         bander();
+                    case "Juarez":
+                         Juarez();
+                         break;
+                    case "Horstman":
+                         Horstman();
+                         break;
+                    case "Koehler":
+                         koehler();
+                         break;
+                    case "Brant":
+                         brant();
                          break;
                     case "Batts":
                          batts();
@@ -25,6 +34,9 @@ public class Main {
      private static void bander(){
           System.out.println("Hello There");
      }
+     private static void brant(){
+          System.out.println("Bang!");
+     }
 
      private static void batts(){
           for(int i=0;i>=0;i++){
@@ -34,13 +46,23 @@ public class Main {
 
      // Gogel
      // Horstman
+     private static void Horstman(){
+          System.out.println("Hello There");
+     }
+
      // Brant
      // Carreno
      // Koehler
+     private static void koehler(){
+          System.out.println("I like coffee");
+     }
      // Grisham
      // Lenahan
      // Batts
      // Juarez-Fernandez
+     private static void Juarez(){
+          System.out.println("I need charger");
+     }
      // Scheller
 
      private static void bueller() throws InterruptedException {
