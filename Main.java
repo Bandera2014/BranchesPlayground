@@ -31,7 +31,10 @@ public class Main {
           for (int i = 0; i < 99999; i++) {
                System.out.println(i+1);
           }
-          System.out.println("Hello");
+          for (int i = 0; i < 100; i++) {
+               System.out.println();
+          }
+          System.out.println("Hello, I am here.");
      }
      // Horstman
      // Brant
