@@ -12,6 +12,9 @@ public class Main {
                     case "Bander":
                          bander();
                          break;
+                    case "Batts":
+                         batts();
+                         break;
                     default:
                          bueller();
                          
@@ -21,6 +24,12 @@ public class Main {
 
      private static void bander(){
           System.out.println("Hello There");
+     }
+
+     private static void batts(){
+          for(int i=0;i>=0;i++){
+               System.out.println("Bander is sus");
+          }
      }
 
      // Gogel
