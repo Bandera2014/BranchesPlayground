@@ -11,6 +11,7 @@ public class Main {
                switch(response){
                     case "Gogel":
                          gogel();
+                         break;
                     case "Bander":
                          bander();
                          break;
