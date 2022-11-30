@@ -416164,3 +416164,4 @@ I had virtually no rehearsal for that.
 
 
 
+Bander said Hi
