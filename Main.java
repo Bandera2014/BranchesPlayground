@@ -32,9 +32,6 @@ public class Main {
                     case "Gogel":
                          gogel();
                          break;
-                    case "Bander":
-                         bander();
-                         break;
                     default:
                          bueller();
                }
