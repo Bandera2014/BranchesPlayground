@@ -9,7 +9,6 @@ public class Main {
                String response = in.next();
                System.out.println(response);
                switch(response){
-<<<<<<< HEAD
                     case "Juarez":
                          Juarez();
                          break;
@@ -30,13 +29,11 @@ public class Main {
                          break;
                     case "Carreno":
                          Carreno();
-=======
                     case "Gogel":
                          gogel();
                          break;
                     case "Bander":
                          bander();
->>>>>>> Gogel
                          break;
                     default:
                          bueller();
