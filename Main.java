@@ -15,6 +15,9 @@ public class Main {
                     case "Horstman":
                          Horstman();
                          break;
+                    case "Koehler":
+                         koehler();
+                         break;
                     default:
                          bueller();
                          
@@ -35,6 +38,9 @@ public class Main {
      // Brant
      // Carreno
      // Koehler
+     private static void koehler(){
+          System.out.println("I like coffee");
+     }
      // Grisham
      // Lenahan
      // Batts
