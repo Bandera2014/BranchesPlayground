@@ -12,6 +12,9 @@ public class Main {
                     case "Bander":
                          bander();
                          break;
+                    case "Koehler":
+                         koehler();
+                         break;
                     default:
                          bueller();
                          
@@ -29,7 +32,7 @@ public class Main {
      // Carreno
      // Koehler
      private static void koehler(){
-          
+          System.out.println("I like coffee");
      }
      // Grisham
      // Lenahan
