@@ -12,6 +12,9 @@ public class Main {
                     case "Juarez":
                          Juarez();
                          break;
+                    case "Scheller":
+                         scheller();
+                         break;
                     case "Horstman":
                          Horstman();
                          break;
@@ -24,9 +27,11 @@ public class Main {
                     case "Batts":
                          batts();
                          break;
+                    case "Carreno":
+                         Carreno();
+                         break;
                     default:
                          bueller();
-                         
                }
           }
      }
@@ -52,6 +57,9 @@ public class Main {
 
      // Brant
      // Carreno
+     private static void Carreno(){
+          System.out.println("According to all known laws of aviation, there is no way a bee should be able to fly.");
+     }
      // Koehler
      private static void koehler(){
           System.out.println("I like coffee");
@@ -64,6 +72,9 @@ public class Main {
           System.out.println("I need charger");
      }
      // Scheller
+     public static void scheller() {
+          System.out.println("\nThe Emoji Movie Was Pretty Good\n");
+     }
 
      private static void bueller() throws InterruptedException {
           for(int i=0;i<1;i++){
