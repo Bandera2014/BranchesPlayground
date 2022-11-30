@@ -14,6 +14,11 @@ public class Main {
                          break;
                     case "Scheller":
                          scheller();
+                    case "Horstman":
+                         Horstman();
+                         break;
+                    case "Koehler":
+                         koehler();
                          break;
                     default:
                          bueller();
@@ -28,9 +33,16 @@ public class Main {
 
      // Gogel
      // Horstman
+     private static void Horstman(){
+          System.out.println("Hello There");
+     }
+
      // Brant
      // Carreno
      // Koehler
+     private static void koehler(){
+          System.out.println("I like coffee");
+     }
      // Grisham
      // Lenahan
      // Batts
